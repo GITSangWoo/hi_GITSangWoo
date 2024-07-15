@@ -1,6 +1,6 @@
 [project]
 name = "hi_GITSangWoo"
-version = "0.2.0"
+version = "0.8.0"
 description = "Default template for PDM package"
 authors = [
     {name = "GITSangWoo", email = "dogcenta@gmail.com"},
@@ -9,6 +9,9 @@ dependencies = []
 requires-python = "==3.12.*"
 readme = "README.md"
 license = {text = "MIT"}
+
+[project.scripts]
+hi-gitsangwoo = "hi_gitsangwoo.hello:hi"
 
 
 [tool.pdm]
